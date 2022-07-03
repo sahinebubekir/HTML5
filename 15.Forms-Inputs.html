@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Forms & Inputs</title>
+</head>
+
+<body>
+
+    <form>
+
+        <!-- HTML5 Input alanlari -->
+        <label for="name">Name</label> <br>
+        <input type="text" id="name" name="name" placeholder="Your Name"><br>
+
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email" placeholder="Your Email"><br>
+
+        <label for="password">Password</label><br>
+        <input type="password" id="password" name="password" placeholder="Your Password"><br>
+        
+        <label for="date">Tarih</label><br>
+        <input type="date" id="date" name="date"><br>
+
+        Gender <br>
+
+        Male
+        <input type="radio" name="gender" value="male" checked>
+        Female
+        <input type="radio" name="gender" value="female">
+        Other
+        <input type="radio" name="gender" value="other"><br>
+
+        Hobbies <br>
+        Technology
+        <input type="checkbox" name="tech" id="tech">
+        Music
+        <input type="checkbox" name="music" id="music">
+        Sports
+        <input type="checkbox" name="sports" id="sports"> <br>
+
+        Degree <br>
+        <select name="degree" id="degree">
+            <option value="bachelor">Bachelor's Degree</option>
+            <option value="msc">Yuksek Lisans</option>
+            <option value="phd">Doktora</option>
+            <option value="on_lisans">On Lisans</option>
+        </select> <br>
+
+        <textarea name="message" id="message" rows="10" cols="30" placeholder="Your Message">
+
+        </textarea> <br>
+
+
+        <input type="submit" value="Submit">
+        <!-- Submit veya Gonder butonu icin alternatif -->
+        <!-- <button type="submit">Gonder</button> -->
+
+        <input type="reset" value="Sifirla">
+        <!-- Sifirlama butonu icin alternatif -->
+        <!-- <button type="reset">Sifirla</button> -->
+    </form>
+
+
+</body>
+
+</html>
